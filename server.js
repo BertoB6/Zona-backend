@@ -5,10 +5,16 @@ const path = require('path');
 const multer = require('multer');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
-// Middleware
-app.use(cors());
+// ========== ÚNICA COISA QUE MUDA ==========
+// Antes: app.use(cors());
+// Agora: apenas permite seu front-end
+app.use(cors({
+    origin: 'https://zonaxp.vercel.app'
+}));
+// ==========================================
+
 app.use(express.json());
 app.use(express.static('public'));
 
@@ -32,7 +38,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({ 
     storage: storage,
-    limits: { fileSize: 5 * 1024 * 1024 }, // 5MB max
+    limits: { fileSize: 5 * 1024 * 1024 },
     fileFilter: (req, file, cb) => {
         const allowed = ['image/jpeg', 'image/jpg', 'image/png', 'image/webp'];
         if (allowed.includes(file.mimetype)) {
@@ -46,7 +52,6 @@ const upload = multer({
 // Caminho do arquivo JSON
 const dadosPath = path.join(__dirname, 'dados', 'jogos.json');
 
-// Funções auxiliares
 function lerDados() {
     try {
         const dados = fs.readFileSync(dadosPath, 'utf8');
@@ -67,9 +72,8 @@ function salvarDados(dados) {
     fs.writeFileSync(dadosPath, JSON.stringify(dados, null, 2));
 }
 
-// ==================== ROTAS DA API ====================
+// ==================== ROTAS ====================
 
-// Upload de imagem
 app.post('/api/upload', upload.single('imagem'), (req, res) => {
     if (!req.file) {
         return res.status(400).json({ erro: 'Nenhuma imagem enviada' });
@@ -82,7 +86,6 @@ app.post('/api/upload', upload.single('imagem'), (req, res) => {
     });
 });
 
-// Buscar todos os jogos
 app.get('/api/jogos', (req, res) => {
     try {
         const dados = lerDados();
@@ -92,7 +95,6 @@ app.get('/api/jogos', (req, res) => {
     }
 });
 
-// Buscar um jogo por ID
 app.get('/api/jogos/:id', (req, res) => {
     try {
         const dados = lerDados();
@@ -104,7 +106,6 @@ app.get('/api/jogos/:id', (req, res) => {
     }
 });
 
-// Adicionar novo jogo
 app.post('/api/jogos', (req, res) => {
     try {
         const dados = lerDados();
@@ -121,7 +122,6 @@ app.post('/api/jogos', (req, res) => {
     }
 });
 
-// Atualizar jogo
 app.put('/api/jogos/:id', (req, res) => {
     try {
         const dados = lerDados();
@@ -137,7 +137,6 @@ app.put('/api/jogos/:id', (req, res) => {
     }
 });
 
-// Remover jogo
 app.delete('/api/jogos/:id', (req, res) => {
     try {
         const dados = lerDados();
@@ -151,7 +150,6 @@ app.delete('/api/jogos/:id', (req, res) => {
     }
 });
 
-// Atualizar ordem dos jogos
 app.put('/api/ordem', (req, res) => {
     try {
         const dados = lerDados();
@@ -163,7 +161,6 @@ app.put('/api/ordem', (req, res) => {
     }
 });
 
-// Atualizar avaliação
 app.put('/api/avaliacao/:id', (req, res) => {
     try {
         const dados = lerDados();
@@ -182,7 +179,6 @@ app.put('/api/avaliacao/:id', (req, res) => {
     }
 });
 
-// Iniciar servidor
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`🚀 Servidor rodando em http://localhost:${PORT}`);
     console.log(`📁 Admin: http://localhost:${PORT}/admin.html`);
