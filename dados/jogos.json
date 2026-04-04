@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-04T10:47:13.344Z",
+  "ultimaAtualizacao": "2026-04-04T11:00:23.557Z",
   "ordemJogos": [
     1,
     2,
@@ -218,7 +218,7 @@
       "nome": "Spider Man3 ",
       "categoria": "Aventura, ação ",
       "plataforma": "PSP",
-      "imagem": "1001607860",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1775298443/Screenshot_20260403-210007_khjujp.png",
       "download": "https://www.mediafire.com/file/fxdx8834qfgth41/SPIDERMAN_3_password_%28androrg3%29.7z/file",
       "pago": false,
       "preco": "",
