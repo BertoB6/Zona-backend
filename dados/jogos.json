@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-04T18:55:04.456Z",
+  "ultimaAtualizacao": "2026-04-04T18:55:46.531Z",
   "ordemJogos": [
     1,
     2,
@@ -117,18 +117,18 @@
       "destaque": false
     },
     {
-      "id": 8,
       "nome": "Dream League Soccer Mod Real Madrid",
       "categoria": "Futebol",
       "plataforma": "APK Android",
       "imagem": "dls2",
-      "download": "compartilhar.html",
+      "download": "https://www.mediafire.com/file/9zxc3bn6cs18p33/DLS+26+MOD+REAL+MADRID+BY+HOS.zip/file?dkey=7f5ubls8y0q&r=15",
       "pago": false,
       "preco": "",
       "senha": "",
       "tamanho": "860 MB",
+      "destaque": false,
       "avaliacao": 0,
-      "destaque": false
+      "id": 8
     },
     {
       "id": 9,
