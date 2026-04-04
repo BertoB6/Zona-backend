@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-04T10:17:01.999Z",
+  "ultimaAtualizacao": "2026-04-04T10:17:06.533Z",
   "ordemJogos": [
     1,
     2,
@@ -18,7 +18,6 @@
     15,
     16,
     17,
-    18,
     20
   ],
   "jogos": [
@@ -259,20 +258,6 @@
       "destaque": false,
       "avaliacao": 0,
       "id": 17
-    },
-    {
-      "nome": "Bdb",
-      "categoria": "Bsbsb",
-      "plataforma": "PSP",
-      "imagem": "Ndnd",
-      "download": "Checkout.html",
-      "pago": true,
-      "preco": "25",
-      "senha": "",
-      "tamanho": "500mb",
-      "destaque": false,
-      "avaliacao": 0,
-      "id": 18
     },
     {
       "nome": "Bdb",
