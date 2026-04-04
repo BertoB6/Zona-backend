@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-04T11:00:23.557Z",
+  "ultimaAtualizacao": "2026-04-04T18:52:23.762Z",
   "ordemJogos": [
     1,
     2,
@@ -19,18 +19,18 @@
   ],
   "jogos": [
     {
-      "id": 1,
       "nome": "Mortal Kombat 11",
       "categoria": "Luta",
       "plataforma": "PSP",
       "imagem": "mortal1",
-      "download": "checkout.html",
-      "pago": true,
-      "preco": "25 MT",
+      "download": "https://www.mediafire.com/download/fag1w7uxis3567s?dkey=hp8v0n3fs3d&r=1251",
+      "pago": false,
+      "preco": "",
       "senha": "",
-      "tamanho": "1.4 GB",
+      "tamanho": "841",
+      "destaque": false,
       "avaliacao": 0,
-      "destaque": false
+      "id": 1
     },
     {
       "id": 2,
