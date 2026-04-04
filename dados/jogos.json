@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-04T18:55:46.531Z",
+  "ultimaAtualizacao": "2026-04-04T18:56:09.311Z",
   "ordemJogos": [
     1,
     2,
@@ -103,18 +103,18 @@
       "destaque": false
     },
     {
-      "id": 7,
       "nome": "Dream League Soccer Mod",
       "categoria": "Futebol",
       "plataforma": "APK Android",
       "imagem": "Dls1",
-      "download": "compartilhar.html",
+      "download": "https://www.mediafire.com/file/f2d4ezkux56ephj/APK+DLS+26+V2+CON+MONEDAS+%28DIFICULTAD+AVANZADA%29+BY+GIIODROID,+AR+GAMING,+DROICER,+GAMEIN+Y+EPDF.zip/file",
       "pago": false,
       "preco": "",
       "senha": "",
       "tamanho": "850 MB",
+      "destaque": false,
       "avaliacao": 0,
-      "destaque": false
+      "id": 7
     },
     {
       "nome": "Dream League Soccer Mod Real Madrid",
