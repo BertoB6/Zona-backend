@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-04T18:56:09.311Z",
+  "ultimaAtualizacao": "2026-04-05T12:49:44.305Z",
   "ordemJogos": [
     1,
     2,
@@ -15,7 +15,8 @@
     12,
     13,
     14,
-    15
+    15,
+    16
   ],
   "jogos": [
     {
@@ -227,6 +228,20 @@
       "destaque": true,
       "avaliacao": 0,
       "id": 15
+    },
+    {
+      "nome": "Naruto Shippuden: Ultimate Ninja Storm 3",
+      "categoria": "Luta",
+      "plataforma": "PC",
+      "imagem": "1001614270",
+      "download": "https://www.mediafire.com/file_premium/jrb3dye6n4svtlt/Naruto_Shippuden_-_Ultimate_NS3_-_%2528Www.Apunkagames.Net%2529.rar/file",
+      "pago": false,
+      "preco": "",
+      "senha": "",
+      "tamanho": "5G",
+      "destaque": false,
+      "avaliacao": 0,
+      "id": 16
     }
   ]
 }
