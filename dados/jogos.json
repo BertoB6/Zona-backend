@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-06T19:02:56.514Z",
+  "ultimaAtualizacao": "2026-04-07T11:42:19.829Z",
   "ordemJogos": [
     1,
     2,
@@ -16,7 +16,8 @@
     13,
     14,
     15,
-    16
+    16,
+    17
   ],
   "jogos": [
     {
@@ -242,6 +243,20 @@
       "destaque": false,
       "avaliacao": 0,
       "id": 16
+    },
+    {
+      "nome": "Naruto Ultimate Ninja Storm",
+      "categoria": "Aventura, ação ",
+      "plataforma": "APK Android",
+      "imagem": "1001619181",
+      "download": "https://www.mediafire.com/file/gkws4t3maoa0dgg/NARUTO_ULTIMATE_NINJA_STORM_MOBILE.apk/file?dkey=k9xftfburet&r=386",
+      "pago": false,
+      "preco": "",
+      "senha": "",
+      "tamanho": "500mb",
+      "destaque": false,
+      "avaliacao": 0,
+      "id": 17
     }
   ]
 }
