@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-07T11:44:03.162Z",
+  "ultimaAtualizacao": "2026-04-09T04:53:05.122Z",
   "ordemJogos": [
     1,
     2,
@@ -17,7 +17,8 @@
     14,
     15,
     16,
-    17
+    17,
+    18
   ],
   "jogos": [
     {
@@ -257,6 +258,20 @@
       "destaque": false,
       "avaliacao": 0,
       "id": 17
+    },
+    {
+      "nome": "Resident Evil 4",
+      "categoria": "Ação",
+      "plataforma": "PSP",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1775710224/IMG-20260409-WA0030_pvj4oz.jpg",
+      "download": "https://www.mediafire.com/file/mt0by6w1hzyp49r/4Remake_Fangame.apk/file",
+      "pago": false,
+      "preco": "",
+      "senha": "",
+      "tamanho": "484MB",
+      "destaque": false,
+      "avaliacao": 0,
+      "id": 18
     }
   ]
 }
