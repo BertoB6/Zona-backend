@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-10T17:42:17.011Z",
+  "ultimaAtualizacao": "2026-04-10T17:43:24.356Z",
   "ordemJogos": [
     1,
     2,
@@ -278,7 +278,7 @@
       "nome": "WWE 2K18",
       "categoria": "Desporto, Luta",
       "plataforma": "PSP",
-      "imagem": "1001645751",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1775842977/1775842802509_n5zz4h.jpg",
       "download": "https://www.mediafire.com/file/887syjjfjs8aagw/Smackdown_2K18.iso/file",
       "pago": false,
       "preco": "",
