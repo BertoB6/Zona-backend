@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-10T17:42:07.137Z",
+  "ultimaAtualizacao": "2026-04-10T17:42:17.011Z",
   "ordemJogos": [
     1,
     2,
@@ -228,7 +228,7 @@
       "preco": "",
       "senha": "androrg3",
       "tamanho": "24",
-      "destaque": true,
+      "destaque": false,
       "avaliacao": 0,
       "id": 15
     },
