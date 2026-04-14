@@ -1,11 +1,10 @@
 {
-  "ultimaAtualizacao": "2026-04-14T17:08:25.128Z",
+  "ultimaAtualizacao": "2026-04-14T17:09:32.483Z",
   "ordemJogos": [
     1,
     2,
     3,
     4,
-    5,
     6,
     7,
     8,
@@ -79,20 +78,6 @@
       "tamanho": "780 MB",
       "avaliacao": 0,
       "destaque": false
-    },
-    {
-      "nome": "FC26",
-      "categoria": "Futebol",
-      "plataforma": "PSP",
-      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1775501962/1775240405200_cvk9hq.jpg",
-      "download": "checkout.html",
-      "pago": true,
-      "preco": "25 MT",
-      "senha": "",
-      "tamanho": "553MB",
-      "destaque": true,
-      "avaliacao": 0,
-      "id": 5
     },
     {
       "id": 6,
