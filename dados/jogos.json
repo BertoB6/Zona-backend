@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-14T17:09:45.450Z",
+  "ultimaAtualizacao": "2026-04-15T17:30:04.959Z",
   "ordemJogos": [
     1,
     2,
@@ -19,7 +19,8 @@
     18,
     19,
     20,
-    21
+    21,
+    22
   ],
   "jogos": [
     {
@@ -287,6 +288,20 @@
       "destaque": false,
       "avaliacao": 0,
       "id": 21
+    },
+    {
+      "nome": "Supa Strikas Futebol 2022",
+      "categoria": "Futebol ",
+      "plataforma": "PSP",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1776274030/IMG-20260415-WA0023_kicozv.jpg",
+      "download": "https://www.mediafire.com/file/a5ni1fuavywedgx/Efootball_SUPA_STRIKAS_24%255BGAMESBILE%255D.iso/file",
+      "pago": false,
+      "preco": "",
+      "senha": "⚠️ Este download é para o arquivo efootball, para ter o mod envia mensagem para o suporte da ZonaXP pedindo ",
+      "tamanho": "",
+      "destaque": false,
+      "avaliacao": 0,
+      "id": 22
     }
   ]
 }
