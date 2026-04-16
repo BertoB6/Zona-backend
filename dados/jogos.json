@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-16T18:50:12.495Z",
+  "ultimaAtualizacao": "2026-04-16T18:52:04.390Z",
   "ordemJogos": [
     1,
     2,
@@ -309,11 +309,11 @@
       "categoria": "Mundo aberto, missões ",
       "plataforma": "PSP",
       "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1776365334/IMG-20260416-WA0091_ra90os.jpg",
-      "download": "https://www.mediafire.com/file/4q1465j4fugf9b6/GoW-GoS_%2528PT-BR%2529_Dub.7z/file",
+      "download": "checkout.html",
       "pago": true,
       "preco": "30MT",
       "senha": "",
-      "tamanho": "",
+      "tamanho": "1.15GB",
       "destaque": true,
       "avaliacao": 0,
       "id": 23
