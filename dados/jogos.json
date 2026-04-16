@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-15T17:30:04.959Z",
+  "ultimaAtualizacao": "2026-04-16T18:46:49.417Z",
   "ordemJogos": [
     1,
     2,
@@ -20,7 +20,8 @@
     19,
     20,
     21,
-    22
+    22,
+    23
   ],
   "jogos": [
     {
@@ -302,6 +303,20 @@
       "destaque": false,
       "avaliacao": 0,
       "id": 22
+    },
+    {
+      "nome": "God of War - Ghost of Sparta ",
+      "categoria": "Mundo aberto, missões ",
+      "plataforma": "PSP",
+      "imagem": "https://share.google/U8RdZxPQTLOG1j4sY",
+      "download": "https://www.mediafire.com/file/4q1465j4fugf9b6/GoW-GoS_%2528PT-BR%2529_Dub.7z/file",
+      "pago": true,
+      "preco": "30MT",
+      "senha": "",
+      "tamanho": "",
+      "destaque": true,
+      "avaliacao": 0,
+      "id": 23
     }
   ]
 }
