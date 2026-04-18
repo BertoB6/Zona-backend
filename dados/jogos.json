@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-16T18:52:04.390Z",
+  "ultimaAtualizacao": "2026-04-18T11:22:19.957Z",
   "ordemJogos": [
     1,
     2,
@@ -21,7 +21,8 @@
     20,
     21,
     22,
-    23
+    23,
+    24
   ],
   "jogos": [
     {
@@ -317,6 +318,20 @@
       "destaque": true,
       "avaliacao": 0,
       "id": 23
+    },
+    {
+      "nome": "Valhalla Knights",
+      "categoria": "Aventura ",
+      "plataforma": "PSP",
+      "imagem": "1001666981",
+      "download": "https://www.mediafire.com/file/8i76skv0z24i8jd/inbound6783899751078945390.7z/file",
+      "pago": false,
+      "preco": "",
+      "senha": "",
+      "tamanho": "146MB",
+      "destaque": false,
+      "avaliacao": 0,
+      "id": 24
     }
   ]
 }
