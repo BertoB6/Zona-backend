@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-19T15:23:38.466Z",
+  "ultimaAtualizacao": "2026-04-19T15:27:00.951Z",
   "ordemJogos": [
     1,
     2,
@@ -338,13 +338,13 @@
       "nome": "Ghost in the shell",
       "categoria": "Ação, tiro",
       "plataforma": "PSP",
-      "imagem": "1001669879",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1776612322/IMG-20260419-WA0032_iuodt7.jpg",
       "download": "https://www.mediafire.com/file/pmd9kcpq5wwg2eo/Ghost_in_the_Shell_by_GAMEEMO.zip/file",
       "pago": false,
       "preco": "",
       "senha": "",
       "tamanho": "206",
-      "destaque": false,
+      "destaque": true,
       "avaliacao": 0,
       "id": 25
     }
