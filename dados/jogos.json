@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-23T05:30:30.902Z",
+  "ultimaAtualizacao": "2026-04-23T05:32:34.089Z",
   "ordemJogos": [
     1,
     2,
@@ -353,7 +353,7 @@
       "nome": "Angry birds",
       "categoria": "Diversão ",
       "plataforma": "PSP",
-      "imagem": "1001676633",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1776922325/IMG-20260423-WA0010_flgm0w.jpg",
       "download": "https://www.mediafire.com/file/bqrxjis65z1a8xn/ANGRY_BIRD.7z/file",
       "pago": false,
       "preco": "",
