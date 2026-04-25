@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-25T07:34:58.266Z",
+  "ultimaAtualizacao": "2026-04-25T07:35:13.167Z",
   "ordemJogos": [
     1,
     2,
@@ -360,7 +360,7 @@
       "preco": "",
       "senha": "gamerrv",
       "tamanho": "12MB",
-      "destaque": true,
+      "destaque": false,
       "avaliacao": 0,
       "id": 26
     },
