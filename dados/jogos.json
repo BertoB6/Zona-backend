@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-30T08:42:43.741Z",
+  "ultimaAtualizacao": "2026-04-30T08:43:48.504Z",
   "ordemJogos": [
     1,
     2,
@@ -399,7 +399,7 @@
       "nome": "Truck Simulator Ultimate",
       "categoria": "Carros, viagens ",
       "plataforma": "APK Android",
-      "imagem": "1001690864",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1777538604/IMG-20260430-WA0011_ktmlkq.jpg",
       "download": "https://play.google.com/store/apps/details?id=com.zuuks.truck.simulator.ultimate",
       "pago": false,
       "preco": "",
