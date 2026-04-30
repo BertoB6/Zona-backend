@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-30T08:37:01.993Z",
+  "ultimaAtualizacao": "2026-04-30T08:38:34.052Z",
   "ordemJogos": [
     1,
     2,
@@ -383,7 +383,7 @@
       "nome": "Cuphead ",
       "categoria": "Aventura ",
       "plataforma": "APK Android",
-      "imagem": "1001690815",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1777538291/IMG-20260429-WA0008_okynrg.jpg",
       "download": "https://www.mediafire.com/file/kigjowozkbz5qab/Cuphead_-_1.70_-_BETA_3_-_APK_-_VPR.apk/file",
       "pago": false,
       "preco": "",
