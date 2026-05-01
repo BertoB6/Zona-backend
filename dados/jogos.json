@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-01T13:43:32.538Z",
+  "ultimaAtualizacao": "2026-05-01T17:40:20.913Z",
   "ordemJogos": [
     1,
     2,
@@ -158,18 +158,18 @@
       "destaque": false
     },
     {
-      "id": 11,
       "nome": "DFL 26",
       "categoria": "Futebol",
       "plataforma": "APK Android",
-      "imagem": "DFL26",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1777657174/1777619392967_g34fvg.jpg",
       "download": "checkout.html",
       "pago": true,
-      "preco": "25 MT",
+      "preco": "30 MT",
       "senha": "",
       "tamanho": "920 MB",
+      "destaque": true,
       "avaliacao": 0,
-      "destaque": false
+      "id": 11
     },
     {
       "nome": "James Bond",
