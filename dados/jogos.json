@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-04-30T08:44:56.202Z",
+  "ultimaAtualizacao": "2026-05-01T13:43:32.538Z",
   "ordemJogos": [
     1,
     2,
@@ -27,7 +27,8 @@
     26,
     27,
     28,
-    29
+    29,
+    30
   ],
   "jogos": [
     {
@@ -407,6 +408,20 @@
       "destaque": true,
       "avaliacao": 0,
       "id": 29
+    },
+    {
+      "nome": "WWE 25",
+      "categoria": "Luta",
+      "plataforma": "PSP",
+      "imagem": "img20260501wa0047",
+      "download": "https://www.mediafire.com/file/8k2nl6l7130jxe0/WWE+2K24+V1+PSP+GAME+FILE+BY+M+PRO+GAMING.zip/file",
+      "pago": false,
+      "preco": "",
+      "senha": "",
+      "tamanho": "1.81GB",
+      "destaque": false,
+      "avaliacao": 0,
+      "id": 30
     }
   ]
 }
