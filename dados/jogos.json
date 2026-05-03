@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-02T10:42:46.152Z",
+  "ultimaAtualizacao": "2026-05-03T16:02:30.861Z",
   "ordemJogos": [
     1,
     2,
@@ -28,7 +28,8 @@
     27,
     28,
     29,
-    30
+    30,
+    31
   ],
   "jogos": [
     {
@@ -422,6 +423,20 @@
       "destaque": false,
       "avaliacao": 0,
       "id": 30
+    },
+    {
+      "nome": "Devil may cry 3",
+      "categoria": "Luta, acção",
+      "plataforma": "PSP",
+      "imagem": "90e661da0e70faad7e01e80c6dbfc711",
+      "download": "https://www.mediafire.com/file/0bzf4b8qjq5v6bh/Devil+May+Cry+3+PSP+BY+MPROGAMING.COM.zip/file?dkey=0bzf4b8qjq5v6bh",
+      "pago": false,
+      "preco": "",
+      "senha": "",
+      "tamanho": "700MB",
+      "destaque": true,
+      "avaliacao": 0,
+      "id": 31
     }
   ]
 }
