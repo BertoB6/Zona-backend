@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-04T12:05:00.092Z",
+  "ultimaAtualizacao": "2026-05-04T12:05:02.756Z",
   "ordemJogos": [
     1,
     2,
@@ -60,7 +60,7 @@
       "tamanho": "177 MB",
       "destaque": false,
       "id": 2,
-      "likes": null
+      "likes": 1
     },
     {
       "nome": "FC Mobile 24",
