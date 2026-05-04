@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-04T12:17:06.101Z",
+  "ultimaAtualizacao": "2026-05-04T12:47:51.219Z",
   "ordemJogos": [
     1,
     2,
@@ -29,7 +29,8 @@
     28,
     29,
     30,
-    31
+    31,
+    32
   ],
   "jogos": [
     {
@@ -469,6 +470,31 @@
       "id": 31,
       "likes": null,
       "dislikes": null
+    },
+    {
+      "nome": "GTA V",
+      "categoria": "Mundo aberto, crime",
+      "plataforma": "APK Android",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1777883403/IMG-20260502-WA0072_1_iw6btw.jpg",
+      "tamanho": "",
+      "pago": false,
+      "preco": "",
+      "senha": "",
+      "destaque": false,
+      "banner": false,
+      "download": "",
+      "apk_link": "https://sub4unlock.me/c918d",
+      "obb_link": "https://www.mediafire.com/file/qp05kjcj1uofpyk/2.step_2_OBB.7z/file",
+      "data_link": "https://www.mediafire.com/file/007pq8dbfk1av9q/Arafat1942%2527s_modpack.7z/file",
+      "texture_link": "",
+      "save_link": "",
+      "iso_link": "",
+      "descricao_curta": "Certifica que baixou todos arquivos do jogo para rodar",
+      "descricao_longa": "⚠️ O arquivo apk é restrito. Primeiro deves seguir a nossa comunidade para poder baixar.",
+      "video_url": "",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 32
     }
   ]
 }
