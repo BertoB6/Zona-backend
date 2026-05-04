@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-04T11:54:13.843Z",
+  "ultimaAtualizacao": "2026-05-04T11:55:17.862Z",
   "ordemJogos": [
     1,
     2,
@@ -408,9 +408,18 @@
       "preco": "",
       "senha": "",
       "tamanho": "1.6GB",
-      "destaque": true,
+      "destaque": false,
       "avaliacao": 0,
-      "id": 29
+      "id": 29,
+      "apk_link": "",
+      "obb_link": "",
+      "data_link": "",
+      "texture_link": "",
+      "save_link": "",
+      "iso_link": "",
+      "banner": true,
+      "likes": 0,
+      "dislikes": 0
     },
     {
       "nome": "WWE 25",
