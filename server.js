@@ -53,7 +53,6 @@ async function lerDadosDoGitHub() {
         });
         
         if (response.status === 404) {
-            // Arquivo não existe, criar padrão
             const dadosPadrao = {
                 ultimaAtualizacao: new Date().toISOString(),
                 ordemJogos: [],
@@ -81,7 +80,6 @@ async function salvarDadosNoGitHub(dados) {
     dados.ultimaAtualizacao = new Date().toISOString();
     const conteudo = Buffer.from(JSON.stringify(dados, null, 2)).toString('base64');
     
-    // Primeiro, obter o SHA do arquivo atual (se existir)
     let sha = null;
     try {
         const getResponse = await fetch(GITHUB_API, {
@@ -93,7 +91,6 @@ async function salvarDadosNoGitHub(dados) {
         }
     } catch (e) {}
     
-    // Salvar/atualizar arquivo
     const response = await fetch(GITHUB_API, {
         method: 'PUT',
         headers: {
@@ -110,7 +107,7 @@ async function salvarDadosNoGitHub(dados) {
     return response.status === 200 || response.status === 201;
 }
 
-// ==================== ROTAS ====================
+// ==================== ROTAS EXISTENTES ====================
 
 // Upload de imagem
 app.post('/api/upload', upload.single('imagem'), (req, res) => {
@@ -137,6 +134,9 @@ app.post('/api/jogos', async (req, res) => {
         const ids = dados.jogos.map(j => j.id);
         const novoId = ids.length > 0 ? Math.max(...ids) + 1 : 1;
         novoJogo.id = novoId;
+        // Inicializar likes e dislikes se não existirem
+        if (novoJogo.likes === undefined) novoJogo.likes = 0;
+        if (novoJogo.dislikes === undefined) novoJogo.dislikes = 0;
         dados.jogos.push(novoJogo);
         dados.ordemJogos.push(novoId);
         await salvarDadosNoGitHub(dados);
@@ -153,7 +153,7 @@ app.put('/api/jogos/:id', async (req, res) => {
         const id = parseInt(req.params.id);
         const index = dados.jogos.findIndex(j => j.id === id);
         if (index === -1) return res.status(404).json({ erro: 'Jogo não encontrado' });
-        dados.jogos[index] = { ...req.body, id };
+        dados.jogos[index] = { ...dados.jogos[index], ...req.body, id };
         await salvarDadosNoGitHub(dados);
         res.json(dados.jogos[index]);
     } catch (error) {
@@ -187,13 +187,17 @@ app.put('/api/ordem', async (req, res) => {
     }
 });
 
-// Atualizar avaliação
+// Atualizar avaliação (likes/dislikes) - CORRIGIDO
 app.put('/api/avaliacao/:id', async (req, res) => {
     try {
         const dados = await lerDadosDoGitHub();
-        const jogo = dados.jogos.find(j => j.id === parseInt(req.params.id));
+        const id = parseInt(req.params.id);
+        const jogo = dados.jogos.find(j => j.id === id);
         if (jogo) {
-            jogo.avaliacao = req.body.avaliacao;
+            // Suporta tanto o campo antigo 'avaliacao' como os novos 'likes' e 'dislikes'
+            if (req.body.likes !== undefined) jogo.likes = req.body.likes;
+            if (req.body.dislikes !== undefined) jogo.dislikes = req.body.dislikes;
+            if (req.body.avaliacao !== undefined) jogo.avaliacao = req.body.avaliacao;
             await salvarDadosNoGitHub(dados);
             res.json(jogo);
         } else {
@@ -204,7 +208,82 @@ app.put('/api/avaliacao/:id', async (req, res) => {
     }
 });
 
+// ==================== NOVAS ROTAS ====================
+
+// Buscar banners (jogos com banner=true, máximo 5)
+app.get('/api/banners', async (req, res) => {
+    try {
+        const dados = await lerDadosDoGitHub();
+        const banners = dados.jogos.filter(j => j.banner === true).slice(0, 5);
+        res.json(banners);
+    } catch (error) {
+        res.status(500).json({ erro: 'Erro ao buscar banners' });
+    }
+});
+
+// Buscar destaques (jogos com mais likes, top 6)
+app.get('/api/destaques', async (req, res) => {
+    try {
+        const dados = await lerDadosDoGitHub();
+        const destaques = [...dados.jogos]
+            .sort((a, b) => (b.likes || 0) - (a.likes || 0))
+            .slice(0, 6);
+        res.json(destaques);
+    } catch (error) {
+        res.status(500).json({ erro: 'Erro ao buscar destaques' });
+    }
+});
+
+// Buscar jogos relacionados (mesma categoria, excluindo o atual)
+app.get('/api/relacionados/:id', async (req, res) => {
+    try {
+        const dados = await lerDadosDoGitHub();
+        const id = parseInt(req.params.id);
+        const jogoAtual = dados.jogos.find(j => j.id === id);
+        if (!jogoAtual) {
+            return res.status(404).json({ erro: 'Jogo não encontrado' });
+        }
+        const relacionados = dados.jogos
+            .filter(j => j.id !== id && j.categoria === jogoAtual.categoria)
+            .slice(0, 6);
+        res.json(relacionados);
+    } catch (error) {
+        res.status(500).json({ erro: 'Erro ao buscar relacionados' });
+    }
+});
+
+// Busca avançada (por nome ou categoria)
+app.get('/api/search', async (req, res) => {
+    try {
+        const dados = await lerDadosDoGitHub();
+        const q = req.query.q?.toLowerCase() || '';
+        if (!q) {
+            return res.json(dados.jogos);
+        }
+        const resultados = dados.jogos.filter(j => 
+            j.nome.toLowerCase().includes(q) || 
+            j.categoria.toLowerCase().includes(q)
+        );
+        res.json(resultados);
+    } catch (error) {
+        res.status(500).json({ erro: 'Erro ao buscar' });
+    }
+});
+
+// ==================== INICIAR SERVIDOR ====================
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`🚀 Servidor rodando na porta ${PORT}`);
     console.log(`📊 Salvando dados no GitHub: ${GITHUB_REPO}`);
+    console.log(`📌 Rotas disponíveis:`);
+    console.log(`   GET    /api/jogos`);
+    console.log(`   GET    /api/banners`);
+    console.log(`   GET    /api/destaques`);
+    console.log(`   GET    /api/relacionados/:id`);
+    console.log(`   GET    /api/search?q=`);
+    console.log(`   POST   /api/jogos`);
+    console.log(`   PUT    /api/jogos/:id`);
+    console.log(`   DELETE /api/jogos/:id`);
+    console.log(`   PUT    /api/avaliacao/:id`);
+    console.log(`   PUT    /api/ordem`);
+    console.log(`   POST   /api/upload`);
 });
