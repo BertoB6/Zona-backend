@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-04T11:51:10.773Z",
+  "ultimaAtualizacao": "2026-05-04T11:51:17.205Z",
   "ordemJogos": [
     1,
     2,
@@ -86,7 +86,8 @@
       "senha": "",
       "tamanho": "780 MB",
       "avaliacao": 0,
-      "destaque": false
+      "destaque": false,
+      "likes": null
     },
     {
       "id": 6,
