@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-04T11:25:50.790Z",
+  "ultimaAtualizacao": "2026-05-04T11:27:29.301Z",
   "ordemJogos": [
     1,
     2,
@@ -162,7 +162,7 @@
       "categoria": "Futebol",
       "plataforma": "APK Android",
       "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1777657174/1777619392967_g34fvg.jpg",
-      "download": "checkout.html",
+      "download": "dowload.html",
       "pago": true,
       "preco": "30 MT",
       "senha": "",
