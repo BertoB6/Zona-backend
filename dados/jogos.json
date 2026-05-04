@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-04T11:50:49.444Z",
+  "ultimaAtualizacao": "2026-05-04T11:51:10.773Z",
   "ordemJogos": [
     1,
     2,
@@ -44,7 +44,8 @@
       "tamanho": "841",
       "destaque": false,
       "avaliacao": 0,
-      "id": 1
+      "id": 1,
+      "dislikes": null
     },
     {
       "nome": "Need for Speed",
