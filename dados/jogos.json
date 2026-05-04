@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-04T11:55:17.862Z",
+  "ultimaAtualizacao": "2026-05-04T11:55:40.273Z",
   "ordemJogos": [
     1,
     2,
@@ -169,9 +169,18 @@
       "preco": "30 MT",
       "senha": "",
       "tamanho": "920 MB",
-      "destaque": true,
+      "destaque": false,
       "avaliacao": 0,
-      "id": 11
+      "id": 11,
+      "apk_link": "",
+      "obb_link": "",
+      "data_link": "",
+      "texture_link": "",
+      "save_link": "",
+      "iso_link": "",
+      "banner": true,
+      "likes": 0,
+      "dislikes": 0
     },
     {
       "nome": "James Bond",
