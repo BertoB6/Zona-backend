@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-07T06:24:53.711Z",
+  "ultimaAtualizacao": "2026-05-07T06:25:22.106Z",
   "ordemJogos": [
     1,
     2,
@@ -215,7 +215,8 @@
       "senha": "DBZSB8TV",
       "tamanho": "720 MB",
       "avaliacao": 0,
-      "destaque": false
+      "destaque": false,
+      "likes": null
     },
     {
       "id": 14,
