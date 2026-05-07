@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-07T06:24:35.797Z",
+  "ultimaAtualizacao": "2026-05-07T06:24:43.317Z",
   "ordemJogos": [
     1,
     2,
@@ -48,7 +48,7 @@
       "avaliacao": 0,
       "id": 1,
       "dislikes": -1,
-      "likes": null
+      "likes": 1
     },
     {
       "nome": "Need for Speed",
