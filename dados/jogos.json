@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-07T06:24:52.386Z",
+  "ultimaAtualizacao": "2026-05-07T06:24:53.711Z",
   "ordemJogos": [
     1,
     2,
@@ -107,7 +107,8 @@
       "senha": "",
       "tamanho": "1.2 GB",
       "avaliacao": 0,
-      "destaque": false
+      "destaque": false,
+      "likes": null
     },
     {
       "nome": "Dream League Soccer Mod",
