@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-09T12:02:38.431Z",
+  "ultimaAtualizacao": "2026-05-09T15:42:57.975Z",
   "ordemJogos": [
     1,
     2,
@@ -31,7 +31,8 @@
     30,
     31,
     32,
-    33
+    33,
+    34
   ],
   "jogos": [
     {
@@ -525,6 +526,31 @@
       "likes": 4,
       "dislikes": 0,
       "id": 33
+    },
+    {
+      "nome": "Boruto Uzumaki - Ultimate Jejutso mod",
+      "categoria": "Luta",
+      "plataforma": "PSP",
+      "imagem": "1001719315",
+      "tamanho": "72MB",
+      "pago": false,
+      "preco": "",
+      "senha": "",
+      "destaque": false,
+      "banner": false,
+      "download": "https://www.mediafire.com/file/yeokqfam48s0pxz/(AdeptYTkillua)+Boruto+Uzumaki+(Scientific+Ninja+Tool)+V2+Ultimate++Jutsu.zip/file",
+      "apk_link": "",
+      "obb_link": "",
+      "data_link": "",
+      "texture_link": "",
+      "save_link": "",
+      "iso_link": "",
+      "descricao_curta": "Jejutso ultimate mod",
+      "descricao_longa": "Baixe fácil clicando em baixar no botão destaque.",
+      "video_url": "",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 34
     }
   ]
 }
