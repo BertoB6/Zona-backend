@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-09T16:08:36.184Z",
+  "ultimaAtualizacao": "2026-05-09T16:10:38.535Z",
   "ordemJogos": [
     1,
     2,
@@ -302,7 +302,7 @@
       "destaque": false,
       "avaliacao": 0,
       "id": 20,
-      "likes": null,
+      "likes": -1,
       "dislikes": null
     },
     {
