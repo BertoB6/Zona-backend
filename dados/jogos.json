@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-10T11:15:14.991Z",
+  "ultimaAtualizacao": "2026-05-10T11:15:44.196Z",
   "ordemJogos": [
     1,
     2,
@@ -276,7 +276,8 @@
       "tamanho": "484MB",
       "destaque": false,
       "avaliacao": 0,
-      "id": 18
+      "id": 18,
+      "dislikes": null
     },
     {
       "nome": "WWE 2K18",
