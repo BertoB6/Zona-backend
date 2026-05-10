@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-10T07:26:05.514Z",
+  "ultimaAtualizacao": "2026-05-10T07:28:50.468Z",
   "ordemJogos": [
     1,
     2,
@@ -461,9 +461,12 @@
       "texture_link": "",
       "save_link": "",
       "iso_link": "",
-      "banner": true,
-      "likes": 3,
-      "dislikes": 0
+      "banner": false,
+      "likes": 0,
+      "dislikes": 0,
+      "descricao_curta": "",
+      "descricao_longa": "",
+      "video_url": ""
     },
     {
       "nome": "Devil may cry 3",
