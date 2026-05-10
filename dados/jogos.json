@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-10T07:28:51.124Z",
+  "ultimaAtualizacao": "2026-05-10T07:30:07.441Z",
   "ordemJogos": [
     1,
     2,
@@ -563,7 +563,7 @@
       "nome": "GTA VI",
       "categoria": "Missão, crime",
       "plataforma": "PC",
-      "imagem": "1001720416",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1778397837/images_2_einp1c.jpg",
       "tamanho": "64MB",
       "pago": false,
       "preco": "",
