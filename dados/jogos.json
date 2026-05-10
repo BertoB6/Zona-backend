@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-10T11:15:44.196Z",
+  "ultimaAtualizacao": "2026-05-10T11:15:45.626Z",
   "ordemJogos": [
     1,
     2,
@@ -277,7 +277,8 @@
       "destaque": false,
       "avaliacao": 0,
       "id": 18,
-      "dislikes": null
+      "dislikes": null,
+      "likes": null
     },
     {
       "nome": "WWE 2K18",
