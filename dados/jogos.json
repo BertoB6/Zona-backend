@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-13T15:26:43.150Z",
+  "ultimaAtualizacao": "2026-05-13T19:19:18.750Z",
   "ordemJogos": [
     1,
     2,
@@ -66,7 +66,7 @@
       "destaque": false,
       "id": 2,
       "likes": 4,
-      "dislikes": null
+      "dislikes": 1
     },
     {
       "nome": "FC Mobile 24",
