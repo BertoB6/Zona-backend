@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-13T19:19:36.691Z",
+  "ultimaAtualizacao": "2026-05-14T15:47:58.855Z",
   "ordemJogos": [
     1,
     2,
@@ -34,7 +34,8 @@
     33,
     34,
     35,
-    36
+    36,
+    37
   ],
   "jogos": [
     {
@@ -623,6 +624,31 @@
       "likes": 10,
       "dislikes": 0,
       "id": 36
+    },
+    {
+      "nome": "Monster Hunter ",
+      "categoria": "Missão, aventura, combate, ação ",
+      "plataforma": "PSP",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1778773458/images_3_iqtdgq.jpg",
+      "tamanho": "288MB",
+      "pago": false,
+      "preco": "",
+      "senha": "GAMEBOI",
+      "destaque": false,
+      "banner": false,
+      "download": "Partilhar.html",
+      "apk_link": "",
+      "obb_link": "",
+      "data_link": "",
+      "texture_link": "",
+      "save_link": "",
+      "iso_link": "",
+      "descricao_curta": "Deixa um like sempre.",
+      "descricao_longa": "Depois de você baixar o arquivo do jogo, em alguns aparelhos irá pedir senha e introduza a senha que está escrita aqui na página ",
+      "video_url": "",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 37
     }
   ]
 }
