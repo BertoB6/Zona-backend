@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-15T16:24:48.122Z",
+  "ultimaAtualizacao": "2026-05-15T16:25:05.429Z",
   "ordemJogos": [
     1,
     2,
@@ -422,7 +422,8 @@
       "tamanho": "125MB",
       "destaque": false,
       "avaliacao": 0,
-      "id": 27
+      "id": 27,
+      "likes": null
     },
     {
       "nome": "Cuphead ",
