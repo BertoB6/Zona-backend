@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-16T08:48:44.928Z",
+  "ultimaAtualizacao": "2026-05-16T08:48:47.383Z",
   "ordemJogos": [
     1,
     2,
@@ -539,7 +539,7 @@
       "preco": "",
       "senha": "FREE",
       "destaque": false,
-      "banner": true,
+      "banner": false,
       "download": "https://sub4unlock.me/90544",
       "apk_link": "",
       "obb_link": "",
