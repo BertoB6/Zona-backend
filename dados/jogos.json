@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-16T08:48:40.468Z",
+  "ultimaAtualizacao": "2026-05-16T08:48:44.928Z",
   "ordemJogos": [
     1,
     2,
@@ -589,7 +589,7 @@
       "preco": "",
       "senha": "",
       "destaque": false,
-      "banner": true,
+      "banner": false,
       "download": "https://www.google.com/url?q=https://jeuxx-gratuit.fr/gta-4-telecharger-ou-gratuit-jeu-pc/&sa=U&ved=2ahUKEwinqLH6ldP6AhVCUcAKHc3OA-kQFnoECAwQAg&usg=AOvVaw0Vj3H6z1HOViBP0Gk2LwHy",
       "apk_link": "",
       "obb_link": "",
