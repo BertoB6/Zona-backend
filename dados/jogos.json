@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-16T09:58:48.469Z",
+  "ultimaAtualizacao": "2026-05-16T11:19:24.109Z",
   "ordemJogos": [
     1,
     2,
@@ -9,7 +9,6 @@
     7,
     8,
     9,
-    10,
     11,
     12,
     13,
@@ -156,20 +155,6 @@
       "preco": "25 MT",
       "senha": "",
       "tamanho": "900 MB",
-      "avaliacao": 0,
-      "destaque": false
-    },
-    {
-      "id": 10,
-      "nome": "eFootball 26 Mod Africa",
-      "categoria": "Futebol",
-      "plataforma": "APK Android",
-      "imagem": "Efootball1",
-      "download": "compartilhar.html",
-      "pago": false,
-      "preco": "",
-      "senha": "",
-      "tamanho": "1.0 GB",
       "avaliacao": 0,
       "destaque": false
     },
