@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-16T11:19:27.435Z",
+  "ultimaAtualizacao": "2026-05-16T11:19:32.310Z",
   "ordemJogos": [
     1,
     2,
@@ -16,7 +16,6 @@
     17,
     18,
     19,
-    20,
     21,
     22,
     23,
@@ -278,22 +277,6 @@
       "avaliacao": 0,
       "id": 19,
       "likes": null
-    },
-    {
-      "nome": "Efootball Pes 2026 FL",
-      "categoria": "Futebol ",
-      "plataforma": "PSP",
-      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1775900436/IMG-20260406-WA0078_tpbhra.jpg",
-      "download": "https://www.mediafire.com/file/ht0ddeht6a28zfj/eFootBall+PES+2026+FL+Oficial+LINK+God.7z/file#",
-      "pago": false,
-      "preco": "",
-      "senha": "",
-      "tamanho": "300MB",
-      "destaque": false,
-      "avaliacao": 0,
-      "id": 20,
-      "likes": 1,
-      "dislikes": 1
     },
     {
       "nome": "Tomb Raider",
