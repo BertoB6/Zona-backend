@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-16T08:48:47.383Z",
+  "ultimaAtualizacao": "2026-05-16T08:51:46.400Z",
   "ordemJogos": [
     1,
     2,
@@ -658,7 +658,7 @@
       "nome": "Miami Vice ",
       "categoria": "Crime, missão, mundo aberto, gangstar",
       "plataforma": "PSP",
-      "imagem": "1001733330",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1778921447/1_ifweweredrug_xhr2nw.jpg",
       "tamanho": "277MB",
       "pago": true,
       "preco": "25MT",
