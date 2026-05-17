@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-16T18:28:46.587Z",
+  "ultimaAtualizacao": "2026-05-17T06:35:08.117Z",
   "ordemJogos": [
     1,
     2,
@@ -275,7 +275,7 @@
       "destaque": false,
       "avaliacao": 0,
       "id": 19,
-      "likes": null
+      "likes": 0
     },
     {
       "nome": "Tomb Raider",
