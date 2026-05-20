@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-20T12:15:40.747Z",
+  "ultimaAtualizacao": "2026-05-20T12:59:57.717Z",
   "ordemJogos": [
     1,
     2,
@@ -555,7 +555,7 @@
       "descricao_curta": "",
       "descricao_longa": "",
       "video_url": "",
-      "likes": -1,
+      "likes": 0,
       "dislikes": 1,
       "id": 36
     },
