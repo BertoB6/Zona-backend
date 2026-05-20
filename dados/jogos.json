@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-20T06:44:27.229Z",
+  "ultimaAtualizacao": "2026-05-20T12:15:40.747Z",
   "ordemJogos": [
     1,
     2,
@@ -638,13 +638,13 @@
       "nome": "Dragon ball Shin budukai 2",
       "categoria": "Luta",
       "plataforma": "PSP",
-      "imagem": "images",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1779279271/Dragon_Ball_Z_Shin_Budokai_2_-_Screenshot_-_Title_Screen_zs9e1h.webp",
       "tamanho": "378MB",
       "pago": false,
       "preco": "",
       "senha": "",
-      "destaque": true,
-      "banner": true,
+      "destaque": false,
+      "banner": false,
       "download": "https://www.mediafire.com/file/0bzf4b8qjq5v6bh/Devil+May+Cry+3+PSP+BY+MPROGAMING.COM.zip/file?dkey=0bzf4b8qjq5v6bh",
       "apk_link": "",
       "obb_link": "",
