@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-20T13:00:07.983Z",
+  "ultimaAtualizacao": "2026-05-21T16:03:24.715Z",
   "ordemJogos": [
     1,
     2,
@@ -34,7 +34,8 @@
     37,
     38,
     39,
-    40
+    40,
+    41
   ],
   "jogos": [
     {
@@ -658,6 +659,31 @@
       "likes": 0,
       "dislikes": 0,
       "id": 40
+    },
+    {
+      "nome": "Red Dead Redemption 1",
+      "categoria": "Faroeste, lutas, história ",
+      "plataforma": "PC",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1779379146/IMG-20260521-WA0161_ogiig9.jpg",
+      "tamanho": "10GB",
+      "pago": true,
+      "preco": "40MT",
+      "senha": "",
+      "destaque": false,
+      "banner": true,
+      "download": "https://www.mediafire.com/file/hk22uymkg31bpsg/Red+Dead+Redemption+1.rar/file",
+      "apk_link": "",
+      "obb_link": "",
+      "data_link": "",
+      "texture_link": "",
+      "save_link": "",
+      "iso_link": "",
+      "descricao_curta": "Red Dead Redemption 1 para pc em português ",
+      "descricao_longa": "Jogo dublado ✅ \nAceita PC fraco ✅ \nJogo em arquivo.zar ✅\nLink direto no Mediafire ✅\n",
+      "video_url": "",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 41
     }
   ]
 }
