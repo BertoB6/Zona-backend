@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-22T23:31:34.134Z",
+  "ultimaAtualizacao": "2026-05-23T08:20:27.816Z",
   "ordemJogos": [
     1,
     2,
@@ -36,7 +36,8 @@
     39,
     40,
     41,
-    42
+    42,
+    43
   ],
   "jogos": [
     {
@@ -711,6 +712,31 @@
       "likes": 1,
       "dislikes": 0,
       "id": 42
+    },
+    {
+      "nome": "Ninjago ",
+      "categoria": "Aventura, missão ",
+      "plataforma": "APK Android",
+      "imagem": "1001748071",
+      "tamanho": "149",
+      "pago": false,
+      "preco": "",
+      "senha": "",
+      "destaque": false,
+      "banner": false,
+      "download": "",
+      "apk_link": "",
+      "obb_link": "https://www.mediafire.com/file/ghts3ochx6nt3fz/com.lego.ninjago.wucru.zip/file",
+      "data_link": "",
+      "texture_link": "",
+      "save_link": "",
+      "iso_link": "",
+      "descricao_curta": "Baixe Lego Ninjago grátis.",
+      "descricao_longa": "",
+      "video_url": "",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 43
     }
   ]
 }
