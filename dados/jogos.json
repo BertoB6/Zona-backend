@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-26T08:45:41.707Z",
+  "ultimaAtualizacao": "2026-05-26T11:36:39.956Z",
   "ordemJogos": [
     1,
     2,
@@ -236,7 +236,8 @@
       "tamanho": "24",
       "destaque": false,
       "avaliacao": 0,
-      "id": 15
+      "id": 15,
+      "dislikes": null
     },
     {
       "nome": "Naruto Ultimate Ninja Storm",
