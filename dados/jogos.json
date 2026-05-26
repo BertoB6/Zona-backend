@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-26T16:23:15.248Z",
+  "ultimaAtualizacao": "2026-05-26T19:00:32.766Z",
   "ordemJogos": [
     1,
     2,
@@ -38,7 +38,8 @@
     41,
     42,
     43,
-    44
+    44,
+    45
   ],
   "jogos": [
     {
@@ -765,6 +766,31 @@
       "likes": 2,
       "dislikes": 0,
       "id": 44
+    },
+    {
+      "nome": "Naruto Storm Munge",
+      "categoria": "Luta, acção",
+      "plataforma": "APK Android",
+      "imagem": "1001753215",
+      "tamanho": "190MB",
+      "pago": false,
+      "preco": "",
+      "senha": "",
+      "destaque": true,
+      "banner": false,
+      "download": "Compartilhar.html",
+      "apk_link": "",
+      "obb_link": "",
+      "data_link": "",
+      "texture_link": "",
+      "save_link": "",
+      "iso_link": "",
+      "descricao_curta": "",
+      "descricao_longa": "",
+      "video_url": "",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 45
     }
   ]
 }
