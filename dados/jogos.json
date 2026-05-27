@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-27T10:17:07.212Z",
+  "ultimaAtualizacao": "2026-05-27T12:03:12.242Z",
   "ordemJogos": [
     1,
     2,
@@ -39,7 +39,8 @@
     42,
     43,
     44,
-    45
+    45,
+    46
   ],
   "jogos": [
     {
@@ -791,6 +792,31 @@
       "likes": 4,
       "dislikes": 0,
       "id": 45
+    },
+    {
+      "nome": "GTA SAN ANDREAS ",
+      "categoria": "Aventura, missão, mundo aberto, acção ",
+      "plataforma": "APK Android",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1779883204/IMG-20260527-WA0015_euo7hk.jpg",
+      "tamanho": "1.6GB",
+      "pago": false,
+      "preco": "",
+      "senha": "",
+      "destaque": false,
+      "banner": true,
+      "download": "",
+      "apk_link": "https://www.mediafire.com/file/4r3ziird7kpwxxk/GTA_SA_APK_2.10_PT_BR%252C_By_Ryuzaki_gamer.zip/file?dkey=nxp0zn56n0k&r=1839",
+      "obb_link": "",
+      "data_link": "Partilhar.html",
+      "texture_link": "",
+      "save_link": "",
+      "iso_link": "",
+      "descricao_curta": "Baixe grátis GTA SA",
+      "descricao_longa": "Baixe e jogue GTA SA grátis. Qualquer dificuldade chame nosso suporte ",
+      "video_url": "",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 46
     }
   ]
 }
