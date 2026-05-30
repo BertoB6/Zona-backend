@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-29T22:07:58.922Z",
+  "ultimaAtualizacao": "2026-05-30T09:59:59.283Z",
   "ordemJogos": [
     1,
     2,
@@ -41,7 +41,8 @@
     44,
     45,
     46,
-    47
+    47,
+    48
   ],
   "jogos": [
     {
@@ -843,6 +844,31 @@
       "likes": 0,
       "dislikes": 0,
       "id": 47
+    },
+    {
+      "nome": "Ridge Racer 2",
+      "categoria": "Corrida, carros",
+      "plataforma": "PSP",
+      "imagem": "1001755508",
+      "tamanho": "813MB",
+      "pago": false,
+      "preco": "",
+      "senha": "",
+      "destaque": false,
+      "banner": false,
+      "download": "https://www.mediafire.com/download/xcd1kc2yzlg52j3/Ridge_Racer_2_EUR_PSP.rar",
+      "apk_link": "",
+      "obb_link": "",
+      "data_link": "",
+      "texture_link": "",
+      "save_link": "",
+      "iso_link": "",
+      "descricao_curta": "",
+      "descricao_longa": "",
+      "video_url": "",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 48
     }
   ]
 }
