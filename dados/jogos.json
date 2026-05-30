@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-05-30T09:59:59.283Z",
+  "ultimaAtualizacao": "2026-05-30T10:03:55.551Z",
   "ordemJogos": [
     1,
     2,
@@ -849,7 +849,7 @@
       "nome": "Ridge Racer 2",
       "categoria": "Corrida, carros",
       "plataforma": "PSP",
-      "imagem": "1001755508",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1780135371/4d519e832bbccce69b12f6638c6c0d96_tspyst.png",
       "tamanho": "813MB",
       "pago": false,
       "preco": "",
