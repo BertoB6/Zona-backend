@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-06-02T07:29:42.496Z",
+  "ultimaAtualizacao": "2026-06-02T15:48:47.605Z",
   "ordemJogos": [
     1,
     2,
@@ -42,7 +42,8 @@
     45,
     46,
     47,
-    48
+    48,
+    49
   ],
   "jogos": [
     {
@@ -869,6 +870,31 @@
       "likes": 1,
       "dislikes": 0,
       "id": 48
+    },
+    {
+      "nome": "Hero Man 3",
+      "categoria": "Ação, super herói, missão ",
+      "plataforma": "APK Android",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1780415034/IMG-20260602-WA0050_wvtjva.jpg",
+      "tamanho": "",
+      "pago": false,
+      "preco": "",
+      "senha": "",
+      "destaque": false,
+      "banner": false,
+      "download": "checkout.html",
+      "apk_link": "",
+      "obb_link": "",
+      "data_link": "",
+      "texture_link": "",
+      "save_link": "",
+      "iso_link": "",
+      "descricao_curta": "",
+      "descricao_longa": "",
+      "video_url": "",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 49
     }
   ]
 }
