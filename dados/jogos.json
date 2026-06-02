@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-06-02T15:48:47.605Z",
+  "ultimaAtualizacao": "2026-06-02T15:58:16.820Z",
   "ordemJogos": [
     1,
     2,
@@ -882,8 +882,8 @@
       "senha": "",
       "destaque": false,
       "banner": false,
-      "download": "checkout.html",
-      "apk_link": "",
+      "download": "",
+      "apk_link": "Partilhar.html",
       "obb_link": "",
       "data_link": "",
       "texture_link": "",
