@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-06-03T17:41:31.577Z",
+  "ultimaAtualizacao": "2026-06-03T18:42:22.799Z",
   "ordemJogos": [
     1,
     2,
@@ -112,7 +112,7 @@
       "nome": "God of War - Ghost of Sparta",
       "categoria": "Aventura",
       "plataforma": "PSP",
-      "imagem": "godof",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1780512082/IMG-20260603-WA0078_jrrred.jpg",
       "download": "checkout.html",
       "pago": true,
       "preco": "25 MT",
@@ -120,7 +120,18 @@
       "tamanho": "1.2 GB",
       "avaliacao": 0,
       "destaque": false,
-      "likes": 1
+      "likes": 0,
+      "banner": false,
+      "apk_link": "",
+      "obb_link": "",
+      "data_link": "",
+      "texture_link": "",
+      "save_link": "",
+      "iso_link": "",
+      "descricao_curta": "",
+      "descricao_longa": "",
+      "video_url": "",
+      "dislikes": 0
     },
     {
       "nome": "Dream League Soccer Mod",
