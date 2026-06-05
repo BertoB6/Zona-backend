@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-06-04T05:39:52.312Z",
+  "ultimaAtualizacao": "2026-06-05T07:41:00.360Z",
   "ordemJogos": [
     1,
     2,
@@ -7,7 +7,6 @@
     4,
     6,
     7,
-    9,
     11,
     12,
     13,
@@ -148,20 +147,6 @@
       "id": 7,
       "likes": null,
       "dislikes": null
-    },
-    {
-      "id": 9,
-      "nome": "FIFA 21 Mod 14",
-      "categoria": "Futebol",
-      "plataforma": "APK Android",
-      "imagem": "Fc1",
-      "download": "checkout.html",
-      "pago": true,
-      "preco": "25 MT",
-      "senha": "",
-      "tamanho": "900 MB",
-      "avaliacao": 0,
-      "destaque": false
     },
     {
       "nome": "DFL 26",
