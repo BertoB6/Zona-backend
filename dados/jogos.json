@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-06-05T07:42:09.508Z",
+  "ultimaAtualizacao": "2026-06-05T07:42:15.522Z",
   "ordemJogos": [
     1,
     2,
@@ -644,7 +644,7 @@
       "preco": "40MT",
       "senha": "",
       "destaque": false,
-      "banner": true,
+      "banner": false,
       "download": "https://www.mediafire.com/file/hk22uymkg31bpsg/Red+Dead+Redemption+1.rar/file",
       "apk_link": "",
       "obb_link": "",
