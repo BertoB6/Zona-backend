@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-06-05T07:42:15.522Z",
+  "ultimaAtualizacao": "2026-06-05T15:15:18.294Z",
   "ordemJogos": [
     1,
     2,
@@ -40,7 +40,8 @@
     46,
     47,
     48,
-    49
+    49,
+    50
   ],
   "jogos": [
     {
@@ -858,6 +859,31 @@
       "likes": 1,
       "dislikes": 0,
       "id": 49
+    },
+    {
+      "nome": "EA FC26 ",
+      "categoria": "Futebol ",
+      "plataforma": "APK Android",
+      "imagem": "1001664682",
+      "tamanho": "",
+      "pago": false,
+      "preco": "",
+      "senha": "",
+      "destaque": false,
+      "banner": false,
+      "download": "Partilhar.html",
+      "apk_link": "",
+      "obb_link": "",
+      "data_link": "",
+      "texture_link": "",
+      "save_link": "",
+      "iso_link": "",
+      "descricao_curta": "",
+      "descricao_longa": "Baixe FC26 grátis, clicando em BAIXAR ",
+      "video_url": "",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 50
     }
   ]
 }
