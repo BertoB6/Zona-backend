@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-06-05T15:20:23.882Z",
+  "ultimaAtualizacao": "2026-06-05T15:27:45.494Z",
   "ordemJogos": [
     1,
     2,
@@ -863,12 +863,12 @@
     {
       "nome": "EA FC26 ",
       "categoria": "Futebol ",
-      "plataforma": "APK Android",
+      "plataforma": "PSP",
       "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1780672781/IMG-20260417-WA0011_bbrg3x.jpg",
-      "tamanho": "",
+      "tamanho": "590",
       "pago": false,
       "preco": "",
-      "senha": "",
+      "senha": "Joe",
       "destaque": false,
       "banner": false,
       "download": "Partilhar.html",
