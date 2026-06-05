@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-06-05T07:42:06.951Z",
+  "ultimaAtualizacao": "2026-06-05T07:42:08.539Z",
   "ordemJogos": [
     1,
     2,
@@ -569,7 +569,7 @@
       "preco": "25MT",
       "senha": "ZONAXP ",
       "destaque": false,
-      "banner": true,
+      "banner": false,
       "download": "https://wa.me/258858523520?text=Quero%20comprar%20Miami%20Vice",
       "apk_link": "",
       "obb_link": "",
