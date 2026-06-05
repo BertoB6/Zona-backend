@@ -1,9 +1,8 @@
 {
-  "ultimaAtualizacao": "2026-06-05T07:41:03.630Z",
+  "ultimaAtualizacao": "2026-06-05T07:41:24.666Z",
   "ordemJogos": [
     1,
     2,
-    3,
     4,
     6,
     11,
@@ -74,21 +73,6 @@
       "id": 2,
       "likes": 6,
       "dislikes": 1
-    },
-    {
-      "nome": "FC Mobile 24",
-      "categoria": "Futebol",
-      "plataforma": "PSP",
-      "imagem": "Fc1",
-      "download": "https://www.mediafire.com/file/o61rqho4wy7g6u3/EA+SPORTS+FC+24+PSP+Normal+Camera+MPROGAMING.COM.iso/file",
-      "pago": false,
-      "preco": "",
-      "senha": "",
-      "tamanho": "950 MB",
-      "destaque": false,
-      "avaliacao": 0,
-      "id": 3,
-      "likes": 3
     },
     {
       "id": 4,
