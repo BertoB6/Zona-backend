@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-06-05T07:41:24.666Z",
+  "ultimaAtualizacao": "2026-06-05T07:41:46.415Z",
   "ordemJogos": [
     1,
     2,
@@ -743,7 +743,7 @@
       "pago": false,
       "preco": "",
       "senha": "",
-      "destaque": true,
+      "destaque": false,
       "banner": false,
       "download": "https://download1583.mediafire.com/p71xglqor5mgW6iqOvyrUJ87eJsxOG9pkETQuZ7UGHqP2i4bY6rCEgGgM1ytDBjo1edevDhhPuWxUpnzje8HIUxJP01sl2A3jjMBzsrQnmdasPEG0W97b9dj-Ie1iIwfqsHI5V1ovR4H0fWmBU77lGqkCjI2spjJn3gbZZo1QBP9OvmK/1w0ysg556walarg/%28SUBSCRIBE+CHANNEL+ReviewGamingHD%29NarutoMugenLITE2021.apk",
       "apk_link": "",
@@ -755,8 +755,8 @@
       "descricao_curta": "",
       "descricao_longa": "",
       "video_url": "",
-      "likes": 1,
-      "dislikes": 1,
+      "likes": 0,
+      "dislikes": 0,
       "id": 45
     },
     {
