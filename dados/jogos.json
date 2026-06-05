@@ -1,12 +1,11 @@
 {
-  "ultimaAtualizacao": "2026-06-05T07:41:00.360Z",
+  "ultimaAtualizacao": "2026-06-05T07:41:03.630Z",
   "ordemJogos": [
     1,
     2,
     3,
     4,
     6,
-    7,
     11,
     12,
     13,
@@ -131,22 +130,6 @@
       "descricao_longa": "",
       "video_url": "",
       "dislikes": 0
-    },
-    {
-      "nome": "Dream League Soccer Mod",
-      "categoria": "Futebol",
-      "plataforma": "APK Android",
-      "imagem": "Dls1",
-      "download": "https://www.mediafire.com/file/f2d4ezkux56ephj/APK+DLS+26+V2+CON+MONEDAS+%28DIFICULTAD+AVANZADA%29+BY+GIIODROID,+AR+GAMING,+DROICER,+GAMEIN+Y+EPDF.zip/file",
-      "pago": false,
-      "preco": "",
-      "senha": "",
-      "tamanho": "850 MB",
-      "destaque": false,
-      "avaliacao": 0,
-      "id": 7,
-      "likes": null,
-      "dislikes": null
     },
     {
       "nome": "DFL 26",
