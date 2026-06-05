@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-06-05T15:27:45.494Z",
+  "ultimaAtualizacao": "2026-06-05T19:38:17.906Z",
   "ordemJogos": [
     1,
     2,
@@ -22,7 +22,6 @@
     27,
     28,
     29,
-    30,
     31,
     32,
     33,
@@ -393,31 +392,6 @@
       "banner": false,
       "likes": 1,
       "dislikes": 0
-    },
-    {
-      "nome": "WWE 25",
-      "categoria": "Luta",
-      "plataforma": "PSP",
-      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1777657240/IMG-20260501-WA0008_k4rzmp.jpg",
-      "download": "https://sub4unlock.me/10a8f",
-      "pago": false,
-      "preco": "",
-      "senha": "",
-      "tamanho": "1.81GB",
-      "destaque": false,
-      "id": 30,
-      "apk_link": "",
-      "obb_link": "",
-      "data_link": "",
-      "texture_link": "",
-      "save_link": "",
-      "iso_link": "",
-      "banner": false,
-      "likes": 1,
-      "dislikes": 0,
-      "descricao_curta": "",
-      "descricao_longa": "",
-      "video_url": ""
     },
     {
       "nome": "Devil may cry 3",
