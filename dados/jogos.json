@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-06-10T19:50:34.210Z",
+  "ultimaAtualizacao": "2026-06-11T16:42:57.461Z",
   "ordemJogos": [
     1,
     2,
@@ -41,7 +41,8 @@
     48,
     49,
     50,
-    51
+    51,
+    52
   ],
   "jogos": [
     {
@@ -884,6 +885,31 @@
       "likes": 0,
       "dislikes": 0,
       "id": 51
+    },
+    {
+      "nome": "UFL 2026",
+      "categoria": "Futebol, desporto ",
+      "plataforma": "APK Android",
+      "imagem": "https://res.cloudinary.com/duofl5h4w/image/upload/v1781196103/IMG-20260609-WA0028_xf3i3s.jpg",
+      "tamanho": "2.00GB",
+      "pago": false,
+      "preco": "",
+      "senha": "",
+      "destaque": false,
+      "banner": true,
+      "download": "checkout.html",
+      "apk_link": "",
+      "obb_link": "",
+      "data_link": "",
+      "texture_link": "",
+      "save_link": "",
+      "iso_link": "",
+      "descricao_curta": "",
+      "descricao_longa": "",
+      "video_url": "",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 52
     }
   ]
 }
